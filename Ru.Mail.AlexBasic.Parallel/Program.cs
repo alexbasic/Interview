@@ -45,7 +45,7 @@ namespace Ru.Mail.AlexBasic.Parallel
 
         private void Inc()
         {
-            for (var i = 0; i < 1_000_000; i++)
+            for (var i = 0; i < 1000000; i++)
             {
                 lock (_syncObject)
                 {
